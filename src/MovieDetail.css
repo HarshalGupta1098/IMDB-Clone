@@ -1,0 +1,36 @@
+.movie_image {
+	width: 1520px;
+	height: 600px;
+	border: none;
+}
+.movie_image img {
+	width: 1520px;
+	height: 600px;
+	filter: blur(1px) brightness(45%);
+}
+
+.movie_data {
+	width: 600px;
+	color: white;
+	position: absolute;
+	top: -10px;
+	padding: 40px;
+}
+
+#button {
+	margin-right: 50px;
+	border-radius: 15px;
+	width: 30px;
+	height: 30px;
+}
+
+.cast_card {
+	flex: 0 1 24%;
+	margin: 4px 16px;
+}
+
+/* 
+.cast_container{
+	padding: 2px 16px;
+}
+*/
